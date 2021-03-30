@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button">Button</string>
+    <string name="already_have_an_account_login">Already have an Account? Login</string>
+</resources>

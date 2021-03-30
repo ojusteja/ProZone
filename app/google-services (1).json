@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "757162694284",
+    "project_id": "prozone-83fad",
+    "storage_bucket": "prozone-83fad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757162694284:android:7ca9d68b7d5da8b2124da9",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757162694284-udunokqifeibjje1chkndbshil8n6oog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi9JA-EyUb7DtcVjyFu2iGkribDxDa2Qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757162694284-udunokqifeibjje1chkndbshil8n6oog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
