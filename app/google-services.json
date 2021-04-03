@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "757162694284",
+    "firebase_url": "https://prozone-83fad-default-rtdb.firebaseio.com",
     "project_id": "prozone-83fad",
     "storage_bucket": "prozone-83fad.appspot.com"
   },
@@ -13,6 +14,22 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "757162694284-pulljc3uu0o2dep2glhlqol0ji43a64h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "75d76a1e47aca00eeedb1cf77ff703ca667a8cf9"
+          }
+        },
+        {
+          "client_id": "757162694284-t5nhep6e2a4uuoblvf5bf72h9qc638ee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "9ced46186a2fcdf399f1d7a42e8baefd2b9325a1"
+          }
+        },
         {
           "client_id": "757162694284-udunokqifeibjje1chkndbshil8n6oog.apps.googleusercontent.com",
           "client_type": 3

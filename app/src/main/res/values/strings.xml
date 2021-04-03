@@ -2,4 +2,7 @@
     <string name="app_name">My Application</string>
     <string name="button">Button</string>
     <string name="already_have_an_account_login">Already have an Account? Login</string>
+    <string name="facebook_app_id">1947685775372780</string>
+    <string name="fb_login_protocol_scheme">fb1947685775372780</string>
+
 </resources>
