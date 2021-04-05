@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".otp_phone">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="-70dp"
+        android:src="@drawable/logo"
+        android:outlineAmbientShadowColor="@color/purple_700"
+        tools:ignore="InvalidId"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VERIFICATION"
+        android:layout_marginTop="-200dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="30dp"
+        android:textColor="#1c1c1a"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="Spinner"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:background="#955902"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/phone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="#2E6C67"
+        android:textSize="20sp"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-60dp"/>
+
+    <Button
+        android:id="@+id/btn_generate_otp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/white"
+        android:paddingVertical="15dp"
+        android:text="Generate OTP"
+        app:backgroundTint="#2E6C67"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_generate_otp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-100dp"
+        android:padding="10dp"
+        android:textSize="13sp"
+        android:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/otpEditText"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@id/phone"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="20dp"
+        android:clickable="false"
+        android:hint="Enter OTP"
+        android:textColorHint="@color/black"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/otpEditText"
+        android:layout_marginLeft="50dp"
+        android:background="#2E6C67"
+        android:text="VERIFY"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:visibility="invisible" />
+
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

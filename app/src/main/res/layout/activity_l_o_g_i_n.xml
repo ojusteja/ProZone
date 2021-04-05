@@ -97,7 +97,6 @@
         android:layout_marginEnd="83dp"
         android:layout_marginRight="83dp"
         android:layout_marginBottom="33dp"
-        android:onClick="register"
         android:text="dont_have_an_account_register_here"
         android:textColor="#174950"
         android:textSize="14sp"

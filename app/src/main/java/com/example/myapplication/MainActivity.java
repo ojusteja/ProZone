@@ -37,9 +37,6 @@ public class MainActivity extends AppCompatActivity{
             }
         });
     }
-   /* public void login(View view) {
-        startActivity(new Intent(getApplicationContext(), LOGIN.class));
-    }*/
 
 
 }

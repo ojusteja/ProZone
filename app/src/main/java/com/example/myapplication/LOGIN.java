@@ -89,17 +89,20 @@ public class LOGIN extends AppCompatActivity implements View.OnClickListener{
 // Initialize Firebase Auth
         fAuth = FirebaseAuth.getInstance();
 
+
+        mRegisterText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(getApplicationContext(),REGISTER.class);
+                startActivity(myIntent);
+            }
+        });
+
     }
 
 
 
 
-
-
-    // to move from login class to register class
-    public void register(View view) {
-        startActivity(new Intent(getApplicationContext(),REGISTER.class));
-    }
 
 
     // to login using email and password
